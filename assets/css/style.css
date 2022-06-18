@@ -8,3 +8,18 @@
     text-align: center;
     
 }
+
+#container-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.center-text > h3{
+    text-align: center;
+}
