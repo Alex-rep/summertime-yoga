@@ -26,7 +26,6 @@ body{
     text-align: center;
     width: 540px;
     font-size: 150%;
-    color: #fff;
 }
 
 #container-center{
@@ -57,7 +56,6 @@ body{
 
 #signup-form{
     text-align: center;
-    color: #fff;
 }
 
 input{
@@ -68,7 +66,6 @@ input{
     width: 75px;
     height:33px;
     text-align: center;
-    border-color: #fff;
     color: #fff;
     background-color: #f47c7c;
 }
