@@ -1,23 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f9f9f9;
+}
+
 #container{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;;
+    gap: 30px;
+}
+
+#hero-image >img {
+    border: 2px solid #f7dbf0;
+    width: 540px;
+    border-radius: 5%;
+}
+
+#description{
+    background-color: #f7dbf0;
 }
 
 #right-description{
     text-align: center;
-    
+    width: 540px;
 }
 
 #container-center{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .center-text{
     text-align: center;
+    width: 300px;
+    margin: 20px;
 }
 
 .center-text > h3{
@@ -46,4 +65,8 @@ input{
 
 #signup-box > h3{
     text-align: center;
+}
+
+footer{
+    background-color: #beaee2;
 }
