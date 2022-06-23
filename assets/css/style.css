@@ -1,3 +1,4 @@
+/*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 body{
@@ -5,6 +6,7 @@ body{
     background-color: #fad4d4;
 }
 
+/*main landing page flexbox and content*/
 #container{
     display: flex;
     align-items: center;
@@ -28,6 +30,7 @@ body{
     font-size: 150%;
 }
 
+/*center section flexbox and text card styles*/
 #container-center{
     display: flex;
     align-items: baseline;
@@ -48,6 +51,7 @@ body{
     text-align: center;
 }
 
+/*signup form flexbox*/
 #container-signup{
     display: flex;
     align-items: center;
@@ -74,6 +78,7 @@ input{
     text-align: center;
 }
 
+/*footer section*/
 footer{
     background-color: #f47c7c;
     color: #fff;
